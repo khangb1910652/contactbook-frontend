@@ -18,7 +18,7 @@ const routes = [
         props: (route) => ({ contactId: parseInt(route.params.id) })
     },
     {
-        path: '/contact',
+        path: '/contacts',
         name: 'contact.add',
         component: () => import('@/views/ContactAdd.vue')
     },
