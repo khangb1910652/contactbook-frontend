@@ -22,7 +22,7 @@ export default {
 </script>
 <template>
   <AppHeader />
-  <div class="container mt-3">
+  <div class="container mt-3 flex-column">
     <router-view />
   </div>
 </template>
